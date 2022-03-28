@@ -15,7 +15,7 @@ public class Main {
 
         int timeToClient = calculateTimeToDeliver(deliveryDistance); //переменная, получающая значение "Срок доставки" из метода
 
-        String stringToDuplicateCheck = "abcdcdcdd"; //переменная для передачи отсортированной строки в метод
+        String stringToDuplicateCheck = "aa"; //переменная для передачи отсортированной строки в метод
 
         definitionYear(year);
         definitionDeviceApp(clientOS, clientDeviceYear);
@@ -86,7 +86,7 @@ public class Main {
             char letterB = stringToDuplicateCheck.charAt(i + 1);
 
             if (letterA == letterB) {
-                System.out.println("Задублирован символ: " + letterA);
+                System.out.println("Задублирован символ: " + letterB);
                 return;
             }
 
